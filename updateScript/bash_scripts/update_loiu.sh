@@ -34,3 +34,5 @@ git add $VERSION_FILE
 
 # Amend the previous commit with the version update
 git commit --amend -m "$LAST_COMMIT_MSG"
+
+#test
