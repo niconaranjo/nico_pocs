@@ -1,6 +1,6 @@
 #!/bin/bash
 # Loui JSON file
-VERSION_FILE="loui.json"
+VERSION_FILE="./updateScript/loui.json"
 
 # Reed the actual version of the file
 CURRENT_VERSION=$(jq -r '.name' $VERSION_FILE)
