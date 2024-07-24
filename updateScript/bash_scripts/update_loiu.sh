@@ -4,14 +4,11 @@
 git fetch --depth=1 origin master
 git checkout origin/master -- ./updateScript/loui.json
 
-
-# Nombre del archivo JSON
+# Name of the file
 VERSION_FILE="./updateScript/loui.json"
 
-# Leer la versión actual desde el archivo JSON
+# Read the actual version from the JSON file
 CURRENT_VERSION=$(jq -r '.name' $VERSION_FILE)
-
-# Loui JSON file
 
 # Increment the version
 # The version is in the format X.Y.Z and increments Z
