@@ -1,7 +1,7 @@
 {
   "name": "gps-1.0.15",
-  "base_core_dir": "google-marketing-bundle-glue-29",
-  "base_core_commit": "229d6119fec5808315466a04612778b74d2c4384",
-  "date": "20240605",
+  "base_core_dir": "######",
+  "base_core_commit": "###########",
+  "date": "####",
   "TCT_exclude_path": "list,promo,herodynamic,contentdebugger,filter,summarylistbullet,pullquote"
 }
